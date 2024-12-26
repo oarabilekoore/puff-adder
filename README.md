@@ -1,6 +1,6 @@
-# puff-adder::
+# signalLib
 
-<div align="center"><img src="./puff-adder.png" width="100" /></div>
+<div align="center"><img src="./signallib.png" width="100" /></div>
 
 <div align="center">
     <img alt="MIT Licensed" src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -9,12 +9,12 @@
 
 <br>
 
-> **puff_adder** is a small, simple library for intergrating reactivity concepts like signals and observables.
+> **signalLib** is a small, simple library for intergrating reactivity concepts like signals and observables.
 
 ## Installation
 
 ```bash
-pip install puff-adder
+pip install signallib
 ```
 
 ## Getting Started
@@ -22,7 +22,7 @@ pip install puff-adder
 ### Making Values Reactive
 
 ```python
-from puff_adder import signal
+from signallib import signal
 
 name = signal('oarabile')
 
@@ -40,7 +40,7 @@ name.value = 'averylongnamecausewhynot'
 ### Observing Changes To A Dict
 
 ```python
-from puff_adder import observe
+from signallib import observe
 
 user = { "name": "oarabile", "age": 19 }
 
